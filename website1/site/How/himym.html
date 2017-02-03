@@ -1,0 +1,384 @@
+ <! DOCTTYPE html>
+ <html>
+ <head>
+  <title>How I met your Mother</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+ </head>
+ <style>
+.video-list-thumbs{}
+.video-list-thumbs > li{
+    margin-bottom:12px;
+}
+.video-list-thumbs > li:last-child{}
+.video-list-thumbs > li > a{
+	display:block;
+	position:relative;
+	background-color: #111;
+	color: #fff;
+	padding: 8px;
+	border-radius:3px
+    transition:all 500ms ease-in-out;
+    border-radius:4px
+}
+.video-list-thumbs > li > a:hover{
+	box-shadow:0 2px 5px rgba(0,0,0,.3);
+	text-decoration:none
+}
+.video-list-thumbs h2{
+	bottom: 0;
+	font-size: 14px;
+	height: 33px;
+	margin: 8px 0 0;
+}
+.video-list-thumbs .glyphicon-play-circle{
+    font-size: 60px;
+    opacity: 0.6;
+    position: absolute;
+    right: 39%;
+    top: 31%;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    transition:all 500ms ease-in-out;
+}
+.video-list-thumbs > li > a:hover .glyphicon-play-circle{
+	color:#fff;
+	opacity:1;
+	text-shadow:0 1px 3px rgba(0,0,0,.8);
+}
+.video-list-thumbs .duration{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	left: 12px;
+	line-height: 13px;
+	padding: 2px 3px 1px;
+	position: absolute;
+	top: 12px;
+    transition:all 500ms ease;
+}
+.video-list-thumbs > li > a:hover .duration{
+	background-color:#000;
+}
+@media (min-width:320px) and (max-width: 480px) { 
+	.video-list-thumbs .glyphicon-play-circle{
+    font-size: 35px;
+    right: 36%;
+    top: 27%;
+	}
+	.video-list-thumbs h2{
+		bottom: 0;
+		font-size: 12px;
+		height: 22px;
+		margin: 8px 0 0;
+	}
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.myButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #91b8b3;
+	box-shadow:inset 0px 0px 0px 0px #91b8b3;
+	background-color:#aab3b1;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border:1px solid #0e0f0f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.myButton:hover {
+	background-color:#0f1212;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+</style>
+<body>
+<div class="row">
+	<ul class="nav nav-tabs">
+		<li class="active">
+			<a href="Home.html">Home</a>
+		</li>
+			<li class="dropdown">
+				<a href="#" data-toggle="dropdown" class="dropdown-toggle">Serials<strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="../../../website1/site/Flash/flash.html">Flash</a>
+						</li>
+						<li>
+							<a href="../../../website1/site/SuperGirl/supergirl.html">Supergirl</a>
+						</li>
+						<li>
+							<a href="../../../website1/site/legends/lot.html">Legends Of Tomorrow</a>
+						</li>
+						
+						<li>
+							<a href="../../../website1/site/Arrow/arrow.html">Arrow</a>
+						</li>
+						<li>
+							<a href="../../../website1/site/Sherlock/sherlock.html">Sherlock</a>
+						</li>
+						<li>
+							<a href="../../../website1/site/How/himym.html">How i met your mother</a>
+						</li>
+
+					</ul>
+				</li>
+				
+							<li class="dropdown">
+				<a href="#" data-toggle="dropdown" class="dropdown-toggle">Fiction Characters<strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href=""></a>
+						</li>
+						<li>
+							<a href="..\..\..\website1\site\FanPage\barry allen.html">Barry Allen</a>
+						</li>
+						<li>
+							<a href="..\..\..\website1\site\FanPage\zoom.html">Zoom</a>
+						</li>
+						<li class="divider">
+						</li>
+						
+						<li>
+							<a href="#">Green Arrow</a>
+						</li>
+						<li>
+						<a href="#">Filicity</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="#">Supergirl</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="#">FireStrom</a>
+						</li>
+					</ul>
+				</li>
+				<li class="pull-right"><a href="#">About Us</a></li>
+			</ul>
+</div>
+
+<div class="w3-content w3-section" style="max-width:5000px">
+  <img class="mySlides" src="Images\h1.jpg" style="width:100%">
+  <img class="mySlides" src="Images\h2.jpg" style="width:100%">
+  <img class="mySlides" src="Images\h3.jpg" style="width:100%">
+</div>
+<div class="container">
+<h2><b>How I met your Mother</b></h2>
+A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother.
+<br>
+<b>Creators:</b> <i> Carter Bays, Craig Thomas</i>
+<br>
+<b>Stars:</b> <i> Josh Radnor, Jason Segel, Cobie Smulders and more</i>
+<br>
+<br>
+<b>Storyline</b>
+<br>
+A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother.
+<br>
+<b>Genres:</b><i> Comedy | Romance</i>
+</div>
+<hr>
+<br>
+<br>
+<h3>&nbsp&nbspCast and Crew</h3>
+<div class="img">
+  <a target="_blank" href="img_fjords.jpg">
+    <img src="http://vignette1.wikia.nocookie.net/disney/images/9/96/NeilPatrickHarris.jpg/revision/latest?cb=20120808153311" width="300" height="200">
+  </a>
+  <div class="desc">Neil Patrick Harris as Barney Stinson</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="http://akns-images.eonline.com/eol_images/Entire_Site/201541/rs_300x300-150501092913-600.Cobie-Late-Night-Avengers.jl.050115.jpg?downsize=300:*&crop=300:300;left,top" width="600" height="200">
+  </a>
+  <div class="desc">Cobbie Smulders as Robin Scherbatsky</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/8a/53/41/8a5341c3ffcaccf5c1c0188ae9b06288.jpg" width="600" height="200">
+  </a>
+  <div class="desc">Josh Radnor as Ted Mosby</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="http://a3.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE4MDAzNDEwODAzOTE4MzUw.jpg" width="600" height="200">
+  </a>
+  <div class="desc">Alyson Hannigan as Lily Aldrin</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="http://a3.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE1ODA0OTcxOTQwNTQ2MDYx.jpg" width="600" height="200">
+  </a>
+  <div class="desc">Jason Segel as Marshal Erikson</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="https://pbs.twimg.com/profile_images/465626894109405184/dHdLoX_D_400x400.png" width="600" height="200">
+  </a>
+  <div class="desc">Cristin Milioti as The Mother</div>
+</div>
+<div class="img">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="http://pixel.nymag.com/imgs/daily/vulture/2012/04/09/09_tarankillam.w529.h529.jpg" width="600" height="200">
+  </a>
+  <div class="desc">Taran Killam as Gary Blauman</div>
+  <br>
+</div>
+
+<br>
+
+<hr>
+<div class="container">
+
+<h3>Bloopers</h3>
+<p>This section contains bloopers of the show how I met your Mother</p>
+
+<hr>
+<ul class="list-unstyled video-list-thumbs row">
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+        <iframe width="250" height="130" src="https://www.youtube.com/embed/CnYr8BSrqNA" frameborder="1" allowfullscreen></iframe>		
+		<h2>Season 1 Bloopers</h2>
+	</li>
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+		<iframe width="250" height="130" src="https://www.youtube.com/embed/8X7e2iwjWPI" frameborder="1" allowfullscreen></iframe>
+		<h2>Season 2 Bloopers</h2>	
+	</li>
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+	<iframe width="250" height="130" src="https://www.youtube.com/embed/wyxDEaugr5M" frameborder="1" allowfullscreen></iframe>
+	<h2>Season 3 Bloopers</h2>
+	</li>
+	<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+    <iframe width="250" height="130" src="https://www.youtube.com/embed/697-E22EsgU" frameborder="1" allowfullscreen></iframe>
+<h2>Season 5 Bloopers</h2>
+	</li>    </ul>
+
+</div>
+<hr>
+
+
+<div class="container">
+
+<h3>How I met your mother Season 8</h3>
+<p>This section contains all episodes of how I met your mother season 8</p>
+<p align="right"><a href="S02/E01.html" class="myButton">Click here for more</a></p>
+<hr>
+<ul class="list-unstyled video-list-thumbs row">
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+		<video height="130" controls poster="Images\How-I-Met-Your-Mother-13.jpg"> 
+    <source src="../../../website1/videos/How/S08/S08E01.mkv" type="video/mp4" />  
+</video>	<h2>How I met your mother season 8 episode 1</h2>
+	</li>
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+		<video height="130" controls poster="Images\How-I-Met-Your-Mother-13.jpg"> 
+    <source src="../../../website1/videos/How/S08/S08E02.mkv" type="video/mp4" />  
+</video>	<h2>How I met your mother season 8 episode 2</h2>
+	
+	</li>
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+	<video height="130" controls poster="Images\How-I-Met-Your-Mother-13.jpg"> 
+    <source src="../../../website1/videos/How/S08/S08E03.mkv" type="video/mp4" />  
+</video>	<h2>How I met your mother season 8 episode 3</h2>
+	</li>
+	<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+	<video height="130" controls poster="Images\How-I-Met-Your-Mother-13.jpg"> 
+    <source src="../../../website1/videos/How/S08/S08E04.mkv" type="video/mp4" />  
+</video>	<h2>How I met your mother season 8 episode 4</h2>
+	</li>    </ul>
+
+</div>
+<hr>
+<div class="container">
+
+<h3>How I met your mother season 7</h3>
+<p>This section contains all episodes of How I met your mother season 7</p>
+<p align="right"><a href="S01/E01.html" class="myButton">Click here for more</a></p>
+<hr>
+<ul class="list-unstyled video-list-thumbs row">
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+		<video height="130" controls poster="Images\How-I-Met-Your-Mother-13.jpg"> 
+    <source src="../../../website1/videos/How/S07/S07E01.mkv" type="video/mp4" />  
+</video>	<h2>How I met your mother season 7 episode 1</h2>
+	</li>
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+		<video height="130" controls poster="Images\How-I-Met-Your-Mother-13.jpg"> 
+    <source src="../../../website1/videos/How/S07/S07E02.mkv" type="video/mp4" />  
+</video>	<h2>How I met your mother season 7 episode 2</h2>
+	
+	</li>
+	<li class="col-lg-3 col-sm-4 col-xs-6">
+	<video height="130" controls poster="Images\How-I-Met-Your-Mother-13.jpg"> 
+    <source src="../../../website1/videos/How/S07/S07E03.mkv" type="video/mp4" />  
+</video>	<h2>How I met your mother season 7 episode 3</h2>
+	</li>
+	<li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+	<video height="130" controls poster="Images\How-I-Met-Your-Mother-13.jpg"> 
+    <source src="../../../website1/videos/How/S07/S07E04.mkv" type="video/mp4" />  
+</video>	<h2>How I met your mother season 7 episode 4</h2>
+	</li>    </ul>
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+
+</html>
